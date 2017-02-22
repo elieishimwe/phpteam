@@ -1,0 +1,15 @@
+class BookProduct extends ShopProduct
+{
+    private $numPages;
+
+    public function __construct($title, $producerMainName, $producerFirstName, $price, $numPages)
+    {
+        parent::__construct($title, $producerMainName, $producerFirstName, $price);
+        {
+        $this->numPages = $numPages;
+        var_dump($numPages);
+
+    }
+    }
+}
+

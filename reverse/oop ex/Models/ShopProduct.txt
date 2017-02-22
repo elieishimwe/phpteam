@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * Created by PhpStorm.
+ * User: thom
+ * Date: 2/20/2017
+ * Time: 11:49 PM
+ */
+class ShopProduct
+{
+
+    private $title;
+    private $producerMainName;
+    private $producerFirstName;
+    protected $price;
+
+    public function __construct($title, $producerFirstName)
+    {
+        $this->title = $title;
+        $this->producerFirstName = $producerFirstName;
+
+    }
+
+    public function setProducer($producerMainName, $producerFirstName)
+    {
+        $this->produceMainname = $producerMainName;
+        $this->producerFirstName = $producerFirstName;
+    }
+
+    public function getProducer($producerMainName, $producerFirstName)
+
+    {
+        return $this->producerMainName = $producerMainName;
+        return $this->producerFirstName = $producerFirstName;
+    }
+
+    public function setSummaryLine($title,$producerMainName, $producerFirstName)
+    {
+        $this->title=$title;
+        $this->produceMainname = $producerMainName;
+        $this->producerFirstName = $producerFirstName;
+    }
+    public function getSummaryLine($title,$producerMainName, $producerFirstName)
+    {
+
+        return $this->title=$title;
+        return $this->producerMainName = $producerMainName;
+        return $this->producerFirstName = $producerFirstName;
+
+    }
+}
+

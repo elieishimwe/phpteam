@@ -1,0 +1,49 @@
+<?php
+
+/**
+ * Created by PhpStorm.
+ * User: thom
+ * Date: 2/21/2017
+ * Time: 12:49 AM
+ */
+class CdProduct extends ShopProduct
+
+{
+    private $playLength;
+
+    public function __construct($title, $producerMainName, $producerFirstName, $price, $playLength)
+    {
+        parent::__construct($title, $producerMainName, $producerFirstName, $price);
+        {
+            $this->price = $price;
+            var_dump($price);
+        }
+
+
+        function setPlayLength($playLength)
+
+            {
+                $this->playLength = $playLength;
+
+
+                function getPlayLenght($playLength)
+                {
+
+                    {
+                        return $this->playLength = $playLength;
+                    }
+                }
+
+                 function setSummaryLine($SummaryLine)
+                 {
+                     $this->SummaryLine = $SummaryLine;
+                 }
+                function getSummaryLine($SummaryLine)
+                     {
+                         return $this->SummaryLine=$SummaryLine;
+                     }
+                 }
+        }
+}
+
+

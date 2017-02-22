@@ -1,0 +1,15 @@
+<?php
+
+include 'ShopProduct.php';
+include 'CdProduct.php';
+include 'BookProduct.php';
+
+
+$ShopProduct=new ShopProduct('Mr','Brian','thomas',12.00);
+$CdProduct=new CdProduct('Mss','Ross','Mfetu',12.35,3);
+$BookProduct=new BookProduct('Miss','Patience','Nalee',98.00,1234);
+
+var_dump($ShopProduct);
+var_dump($CdProduct);
+var_dump($BookProduct);
+?>
